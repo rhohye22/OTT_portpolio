@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="Pps">
+
+	<select id="allMember" resultType="ITzy.OTT.dto.PpsDto">
+		select seq, id, title, content, love, wdate
+		from member
+	</select>
+
+
+
+
+
+
+
+
+
+
+</mapper>

@@ -1,0 +1,5 @@
+use itzydb;
+
+-- member 테이블에 컬럼추가
+ alter table member add company varchar(255); 
+ alter table member add contact varchar(255); 
